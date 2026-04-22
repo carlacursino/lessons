@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug 'lessons'",
+            "request": "launch",
+            "type": "lldb",
+            "program": "${workspaceFolder}/build/debug_bin",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "fpm-build-debug",
+            "terminal": "integrated"
+        }
+    ]
+}
