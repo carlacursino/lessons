@@ -11,19 +11,25 @@ sudo apt install gfortran build-essential gdb python3-pip
 
 ### Install Modern Fortran VSCode Extension
 
+_https://github.com/fortran-lang/vscode-fortran-support_
+
 ### Install CodeLLDB Extension
+
+_https://github.com/vadimcn/codelldb_
 
 ### Install Fortran Type Language Server (fortls)
 
 ```sh
 python3 -m pip install --user fpm --break-system-packages 
 ```
+_https://fortls.fortran-lang.org_
 
 ### Install Fortran Package Manager (fpm)
 
 ```sh
 python3 -m pip install --user fpm --break-system-packages 
 ```
+_https://fpm.fortran-lang.org/install/index.html#_
 
 ### Atualizar `$PATH`
 
